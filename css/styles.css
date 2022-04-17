@@ -1,0 +1,222 @@
+
+    /* main text colour */
+    :root{
+    --primary-text-colour: #212121;
+    --hero-colour: #FFFFFF;
+    --secondary-text-colour: #757575;
+    --accent-colourbackground: #2196F3;
+    --backgr-alt-color: #F5F4FA;
+
+    }  
+             /* BODY */
+.body{font-family: Roboto;}
+
+            /* Хедер */
+.list{list-style: none;}
+
+
+    {width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: var(--primary-text-colour);}
+
+.nav-link-item:hover,
+.nav-link-item:focus
+{color: var(--accent-colourbackground)
+
+}
+.nav-contact-item{
+    width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+.nav-contact-item:hover,
+.nav-contact-item:focus{color: var(--accent-colourbackground)
+    }
+
+
+            /* Секция ХЕРО */
+.hero-title
+{
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-colour);
+   background-color: #2F303A;
+}
+.hero-button
+{   
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--hero-colour);
+    background-color: var(--accent-colourbackground)
+}
+
+            /* Преимущества */
+            
+.title
+      {display: none;
+
+     }
+.item-title
+     {
+      width: 270px;
+      height: 16px;
+      left: 215px;
+      top: 774px;  
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+       color: var(--primary-text-colour);
+     }
+.item-text
+     {
+      width: 270px;
+      height: 75px;
+      left: 215px;
+      top: 800px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;                
+      letter-spacing: 0.03em; 
+      color: var(--secondary-text-colour);
+                
+     }
+
+            /* чем мы занимаемся */
+
+            /* наша команда */
+
+.team
+      {
+          background-color: var(--backgr-alt-color);
+       }
+.team title
+   {
+      }
+.member
+            {  
+      width: 137px;
+      height: 19px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: var(--primary-text-colour);
+            }
+.member-proffesion
+            {   width: 130px;
+      height: 19px;
+      left: 285px;
+      top: 1954px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.03em;
+      color: var(--secondary-text-colour);
+                   }
+
+            /* футер */
+
+.logo
+     {width: 145px;
+      height: 31px;
+         left: 215px;
+     top: 2157px;
+     
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     letter-spacing: 0.03em; 
+     color: #2196F3;}
+.logo:hover,
+.logo:focus
+    {color:#212121}
+
+.footer
+   {background-color: #2F303A;}
+.footer-links
+   {
+
+   }
+.adress
+   {
+   width: 231px;
+   height: 21px;
+   left: 215px;
+   top: 2208px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #FFFFFF;
+
+            }
+ .contact-links
+ {
+     width: 231px;
+     height: 21px;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;              
+     color: rgba(255, 255, 255, 0.6);
+     
+ }
+
+            /* Портфолио */
+
+.portfolio-buttons
+   {
+    font-style: normal;/
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+     color: var(--primary-text-colour);
+    }
+                
+.portfolio-buttons:hover,
+.portfolio-buttons:focus
+     {background-color: var(--accent-colourbackground) ;
+         color:var(--hero-colour);
+     }
+
