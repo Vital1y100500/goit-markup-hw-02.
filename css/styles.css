@@ -14,16 +14,11 @@
             /* Хедер */
 .logo-header
      {
-         width: 145px;
-      height: 31px;
-         left: 215px;
-     top: 2157px;
      
      font-family: 'Raleway';
-     font-style: normal;
      font-weight: 700;
      font-size: 26px;
-     line-height: 31px;
+     line-height: 119.2%;
      letter-spacing: 0.03em; 
      color: #2196F3;
      text-decoration: none;
@@ -38,35 +33,45 @@
 
 }
 .list{list-style: none;
-    
-    top: 32px;
-    
+   
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 114.2%;
     letter-spacing: 0.02em;
     
     color: var(--primary-text-colour);}
 
-.nav-link-list
-    {}
-
+.nav-list
+    {
+        list-style: none;
+     text-decoration:none;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.02em;
+     
+     color: #212121;}
+     .nav-link-item-current{
+        text-decoration:none;
+     }
+     .nav-link-item
+     {
+        text-decoration:none;
+        color: var(--primary-text-colour);
+     }
 .nav-link-item:hover,
 .nav-link-item:focus
 {color: var(--accent-colourbackground)
 
 }
-.nav-contact-item{
-    width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-font-style: normal;
+.nav-contact-item
+{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 114.2%;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -84,14 +89,10 @@ color: #757575;
             /* Секция ХЕРО */
 .hero-title
 {
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    font-style: normal;
+ 
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 136.3%;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -99,51 +100,37 @@ color: #757575;
    
 }
 .hero-button
-{   
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px;
-    font-style: normal;
+{  
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 187.5%;
     color: var(--hero-colour);
     background-color: var(--accent-colourbackground)
 }
 .hero-button:hover,
-.hero-button:focus{background-color:#369ff5 ;}
-.hero{display: inline-block;
-    background-color: #2F303A;}
+.hero-button:focus{background-color:#188CE8 ;}
+.hero
+{
+ display: inline-block;
+background-color: #2F303A;
+}
             /* Преимущества */
             
-.title
-      {display: none;
 
-     }
 .item-title
      {
-      width: 270px;
-      height: 16px;
-      left: 215px;
-      top: 774px;  
-      font-style: normal;
+      
       font-weight: 700;
       font-size: 14px;
-      line-height: 16px;
+      line-height: 114.2%;
       letter-spacing: 0.03em;
        color: var(--primary-text-colour);
      }
 .item-text
      {
-      width: 270px;
-      height: 75px;
-      left: 215px;
-      top: 800px;
-      font-style: normal;
       font-weight: 400;
       font-size: 14px;
-      line-height: 24px;                
+      line-height: 171.4%;                
       letter-spacing: 0.03em; 
       color: var(--secondary-text-colour);
                 
@@ -159,43 +146,81 @@ color: #757575;
        }
 .team title
    {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 116,6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
       }
 .member
             {  
-      width: 137px;
-      height: 19px;
-      font-style: normal;
-      font-weight: 700;
+      font-weight: 500;
       font-size: 16px;
-      line-height: 19px;
+      line-height: 118.75%;
       color: var(--primary-text-colour);
             }
 .member-proffesion
-            {   width: 130px;
-      height: 19px;
-      left: 285px;
-      top: 1954px;
-      font-style: normal;
-      font-weight: 300;
+            {   
+      font-weight: 400;
       font-size: 16px;
-      line-height: 19px;
+      line-height: 118.75%;
       letter-spacing: 0.03em;
       color: var(--secondary-text-colour);
                    }
+                               /* Портфолио */
+
+.portfolio-buttons
+{
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 162.5%;
+  color: var(--primary-text-colour);
+  background-color: #F5F4FA;
+ }
+             
+.portfolio-buttons:hover,
+.portfolio-buttons:focus
+  {background-color: var(--accent-colourbackground) ;
+      color:var(--hero-colour);
+  }
+
+
+.uniqe-case
+{
+text-decoration:none;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+color: #212121;
+letter-spacing: 0.06em;
+}
+.portfolio-link{
+ text-decoration:none;
+}
+.uniqe-case-topic
+{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 187.5%;
+letter-spacing: 0.03em;
+color: #757575;
+}
 
             /* футер */
 
 .logo-footer
-     {width: 145px;
-      height: 31px;
-         left: 215px;
-     top: 2157px;
-     
+     {
      font-family: 'Raleway';
      font-style: normal;
      font-weight: 700;
      font-size: 26px;
-     line-height: 31px;
+     line-height: 119.2% ;
      letter-spacing: 0.03em; 
      color: #2196F3;
      text-decoration: none;
@@ -214,43 +239,21 @@ color: #757575;
    }
 .adress
    {
-   width: 231px;
-   height: 21px;
-   left: 215px;
-   top: 2208px;
+  
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 171.4%;
    color: #FFFFFF;
 
             }
  .contact-links
  {
-     width: 231px;
-     height: 21px;
      font-style: normal;
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px;              
+     line-height: 171.4%;           
      color: rgba(255, 255, 255, 0.6);
      
  }
-
-            /* Портфолио */
-
-.portfolio-buttons
-   {
-    font-style: normal;/
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-     color: var(--primary-text-colour);
-    }
-                
-.portfolio-buttons:hover,
-.portfolio-buttons:focus
-     {background-color: var(--accent-colourbackground) ;
-         color:var(--hero-colour);
-     }
 
